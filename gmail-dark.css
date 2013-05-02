@@ -14,11 +14,38 @@
 
 
 /*
+* set an easier to read selection style
+*
+*/
+*::selection {
+  background: #5E5E5E;
+  color: #eee;
+}
+*::-moz-selection {
+  background: #5E5E5E;
+  color: #eee;
+}
+
+
+/*
+ *
+ *
+ *
+ * Base
+ *
+ *
+ *
+*/
+
+/*
 * Set new base background color
 *
 * 1. main wrapper divs
 * 2. wrapper for main right content section
 * 3. toolbar containing search and logo etc.
+* 4. bar below the above toolbar
+* 5. message detail bg
+* 6. mail label index bg
 *
 */
 /* 1 */
@@ -26,7 +53,13 @@
 /* 2 */
 .aej,
 /* 3 */
-.gbes {
+.gbes,
+/* 4 */
+#gbx1,
+/* 5 */
+.iY .Bu,
+/* 6 */
+.aeJ {
   background-color: #222 !important;
 }
 
@@ -43,23 +76,572 @@
   color: rgba(250,250,250,0.4) !important;
 }
 
+/*
+* topmost toolbar links
+*
+*/
+.gbzt {
+  opacity: 0.4;
+  -webkit-transition: opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+  .gbzt:focus,
+  .gbzt:hover {
+    opacity: 0.8;
+  }
+
 
 /*
 * Add hover opacity for left sidebar
 *
 */
 .n3 {
-  opacity: 0.4;
+  opacity: 0.4 !important;
 }
   .n3:hover {
-    opacity: 1;
+    opacity: 1 !important;
   }
 
 /*
-* Add hover opacity for left sidebar
-*
+* hover class added to left sidebar links <div.TO>
+*/
+.NQ {
+  background-color: transparent !important;
+  color: #fafafa !important;
+}
+.NQ .TO .n0 {
+  color: rgba(250,250,250,0.8) !important;
+}
+
+/*
+* bar below the toolbar with search
 */
 #gbx1 {
   background: #222 !important;
   border-bottom-color: transparent !important;
+}
+
+/*
+* toolbar container
+*/
+.G-atb {
+  border-bottom-color: #111 !important;
+}
+
+/*
+* global search
+*/
+.gbqfqw {
+  background: #737373 !important;
+}
+
+/*
+* global search input
+*/
+#gbqfq {
+  color: #c4c4c4 !important;
+}
+
+/*
+* global search dropdown
+*/
+.ZF-zT {
+  background: #737373 !important;
+}
+
+/*
+* set search dropdown label colors
+*/
+.ZG {
+  color: #222 !important;
+}
+
+/*
+* set search dropdown input colors
+*/
+.ZH {
+  background: #545454 !important;
+  color: #c4c4c4 !important;
+}
+
+/*
+* autocomplete dropdown
+*/
+.aiv {
+  background: #c4c4c4 !important;
+  color: #eee !important;
+}
+
+  /*
+  * hover state for autocomplete dropdown
+  */
+  .ah .Jd-Je {
+    background: #b4b4b4 !important;
+  }
+
+
+
+
+/*
+ *
+ *
+ *
+ * Buttons
+ *
+ *
+ *
+*/
+
+/*
+* primary utility buttons
+*/
+.G-atb .T-I-ax7 {
+  background-image: -webkit-linear-gradient(top,#333149,#19181F) !important;
+  background-image: linear-gradient(top,#333149,#19181F) !important;
+}
+  /*
+  * hover class
+  */
+  .J-JN-M-I-JW {
+    background-image: -webkit-linear-gradient(top,#4F4C70,#19181F) !important;
+    background-image: linear-gradient(top,#4F4C70,#19181F) !important;
+    border: 1px solid #737373 !important;
+  }
+
+/*
+* reply controls within messages
+*/
+.T-I-ax7 {
+  background-image: -webkit-linear-gradient(top,#535353,#2A2A2A) !important;
+  background-image: linear-gradient(top,#f5f5f5,#f1f1f1) !important;
+  border: 1px solid rgba(0,0,0,0.36) !important;
+}
+
+/*
+* compose button
+*/
+.T-I-KE {
+  background-color: #99534B !important;
+  background-image: -webkit-linear-gradient(top,#99534B,#522F2A) !important;
+  background-image: linear-gradient(top,#99534B,#522F2A) !important;
+  border-color: #491611 !important;
+  color: #999 !important;
+  -webkit-transition: color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+  .T-I-KE:focus,
+  .T-I-KE:hover {
+    color: #eee !important;
+    cursor: pointer;
+  }
+
+/*
+* left sidebar people search
+*/
+.dF .dG {
+  background: #737373 !important;
+  border-color: #535353 !important;
+}
+
+
+
+/*
+ *
+ *
+ *
+ * Chat
+ *
+ *
+ *
+*/
+
+/*
+* chat text
+*/
+.km {
+  color: #737373 !important;
+}
+/*
+* target only your own chat text
+*/
+.km[chat-dir=f] {
+  opacity: 0.6 !important;
+}
+
+/*
+* target the timestamp in chats
+*/
+.kp {
+  color: #0e0e0e !important;
+  padding: 6px 0 !important;
+  font-weight: bold !important;
+}
+
+/*
+* Chat title eg 'John Doe'
+*/
+.hP {
+  color: #737373 !important;
+}
+
+/*
+* Chat utility controls (close/minimize/etc)
+*/
+.Hm img {
+  opacity: 0.2;
+}
+  .Hm img:focus,
+  .Hm img:hover {
+    opacity: 0.8;
+  }
+
+/*
+* wrapper for chat utility toolbar
+*/
+div.NC {
+  box-shadow: 0 5px 6px 1px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 1;
+}
+
+/*
+* Chat functions controls (call/hangout/etc)
+*/
+.NJ {
+  background-color: #eee !important;
+}
+  .NJ > div {
+    opacity: 0.4;
+  }
+  .NJ:focus > div,
+  .NJ:hover > div {
+    opacity: 1;
+  }
+
+/*
+* active state of chat's 'more' button
+*/
+.Tt {
+  background: #eee !important;
+  opacity: 0.7 !important;
+}
+
+/*
+* dropdown menu for chat's 'more'
+*/
+.jJ {
+  background-color: #acacac !important;
+  border-top-color: #acacac !important;
+}
+
+/*
+* wrapper for chat - make sure inner shadow doesn't spill out
+*/
+.AD {
+  overflow: hidden;
+}
+
+/*
+* target links in 'more' dropdown
+*/
+.jL {
+  -webkit-transition: all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+  /*
+  * hover class for links in 'more' dropdown
+  */
+  .jO {
+    background-color: #d3d3d3 !important;
+  }
+
+/*
+* wrapper for chat text input
+*/
+.jP {
+  background: #111 !important;
+}
+
+/*
+* chat text input
+*/
+.ad3 {
+  color: #c4c4c4 !important;
+}
+
+/*
+* emoticon icon
+*/
+.jn {
+  opacity: 0.4 !important;
+}
+  .jn:focus,
+  .jn:hover {
+    opacity: 0.8 !important;
+  }
+
+/*
+* title of closed chat
+*/
+.nH .aBp {
+  background: #111 !important;
+}
+
+/*
+* chat body
+*/
+.nH.ko {
+  background: #1b1b1b !important;
+}
+
+
+/*
+ *
+ *
+ *
+ * Mail - Inbox View
+ *
+ *
+ *
+*/
+
+/*
+* target read mail
+*/
+.yO {
+  background: #333 !important;
+  color: #737373 !important;
+}
+  .yO:nth-of-type(even) {
+    background: #444 !important;
+  }
+
+/*
+* target unread mail
+*/
+.zE {
+  background: #696969 !important;
+  color: #d4d4d4 !important;
+}
+
+/*
+* target all mail
+*/
+.zA:focus .xY,
+.zA:hover .xY {
+  border-bottom-color: #ddd !important;
+}
+
+/*
+* table cells within a message row
+*/
+.xY {
+  border-bottom-color: transparent !important;
+  -webkit-transition: border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+
+
+
+/*
+ *
+ *
+ *
+ * Mail - Detail View
+ *
+ *
+ *
+*/
+
+/*
+* message text
+*/
+.gs {
+  color: #737373 !important;
+}
+
+/*
+* messages
+*/
+.Bk .G2 {
+  border-color: #535353;
+}
+
+/*
+* collapsed messages
+*/
+.kv .Bk .G2,
+.hx .kv {
+  background: #333 !important;
+  border-bottom-color: #111 !important;
+}
+
+/*
+* fully collapsed messages
+*/
+.kQ .Bk .G2 {
+  background: #333 !important;
+}
+.hx .ky .Bk .G2,
+.hx .kv .Bk .G2,
+.hx .h7 .Bk .G2,
+.hx .kQ .Bk .G2 {
+  border-color: #222 !important;
+}
+
+/*
+* '5 more messages'
+*/
+.adx {
+  background: #222 !important;
+}
+
+/*
+* user name on email
+*/
+.gD {
+  color: #737373 !important;
+}
+
+/*
+* reply dropdown menu
+*/
+.J-M {
+  background: #737373 !important;
+}
+
+  /*
+  * reply dropdown menu link hover class
+  */
+  .J-N-JT {
+    background: #d1d1d1 !important;
+  }
+
+/*
+* separator in right column
+*/
+.am6 {
+  border-top-color: #111 !important;
+}
+
+/*
+* 'show more' link in right sidebar
+*/
+.e {
+  color: #737373 !important;
+  text-decoration: underline !important;
+}
+
+/*
+* expand collapsed signature
+*/
+.ajr {
+  background-color: #666 !important;
+  border-color: #999 !important;
+}
+
+/*
+* dropdown arrow next to the recipients name
+*/
+.ajz {
+  opacity: 0.4;
+}
+  .ajz:focus,
+  .ajz:hover {
+    opacity: 0.4;
+  }
+
+/*
+* recipient name dropdown container
+*/
+.ajz {
+  background: #323232 !important;
+}
+
+/*
+* <tr>
+*/
+.ajv {
+  color: #5e5e5e !important;
+}
+
+/*
+* container for reply
+*/
+.hx .ie .xu .iq {
+  border-top-color: #555 !important;
+}
+
+/*
+* unfocused reply input
+*/
+.nr {
+  background: transparent !important;
+  border-color: #555 !important;
+}
+
+/*
+* container for input reply
+*/
+.GQ {
+  background: #737373 !important;
+}
+
+/*
+* input for reply
+*/
+.aoP .Ar,
+.aP,
+.aM {
+  background: #737373 !important;
+}
+
+/*
+* reply top bar
+*/
+.IG {
+  background: #535353 !important;
+}
+
+/*
+* user name of pop up from user name
+*/
+.Tt {
+  color: #c4c4c4 !important;
+}
+
+/*
+* reply button once reply box is open
+*/
+.Un {
+  border-color: #333 !important;
+}
+
+
+/*
+ *
+ *
+ *
+ * Mail - Label View
+ *
+ *
+ *
+*/
+
+.aej {
+
 }
