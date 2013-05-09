@@ -249,6 +249,31 @@
   border-color: #535353 !important;
 }
 
+/*
+* Main search button
+*/
+.gbqfb {
+  opacity: 0.5 !important;
+}
+  .gbqfb:focus,
+  .gbqfb:hover {
+    opacity: 0.8 !important;
+  }
+
+/*
+* Google Plus share text bubble
+*/
+#gbgs3 {
+  opacity: 0.6 !important;
+}
+/*
+* Google Plus avatar
+*/
+#gbgs4 {
+  opacity: 0.6 !important;
+}
+
+
 
 
 /*
@@ -609,6 +634,45 @@ div.NC {
 .aM {
   background: #737373 !important;
 }
+.aoP .Am {
+  background: #999 !important;
+}
+
+/*
+* Toolbar below reply text area
+*/
+.gU {
+  background: #737373 !important;
+}
+
+/*
+* Send reply button
+*/
+.T-I-atl {
+  cursor: pointer;
+  opacity: 0.6 !important;
+}
+  .T-I-atl:focus,
+  .T-I-atl:hover {
+    opacity: 0.9 !important;
+  }
+
+/*
+* Document attachment icon
+*/
+.hu {
+  opacity: 0.5;
+}
+
+/*
+* Show more
+*/
+.adm {
+  opacity: 0.6;
+}
+
+
+
 
 /*
 * reply top bar
@@ -630,6 +694,64 @@ div.NC {
 .Un {
   border-color: #333 !important;
 }
+
+/*
+* purple text in read message ?
+*/
+.in {
+  color: #737373 !important;
+}
+
+/*
+* Calender invite details title
+*/
+.ii h3 {
+  color: #ccc !important;
+}
+.ii td {
+  color: #ccc !important;
+}
+
+/*
+* Add to circle button
+*/
+.Zq {
+  color: #ccc !important;
+}
+
+/*
+* Email date
+*/
+.gK {
+  color: #555 !important;
+}
+
+/*
+* Quoted email 'On May 8th Benjamin Charity wrote..'
+*/
+.im {
+  color: #555 !important;
+}
+
+/*
+* Email links
+*/
+.ii a {
+  color: #9e9e9e !important;
+}
+
+/*
+* Labels
+*/
+.cf.hX {
+  opacity: 0.4 !important;
+}
+.cf.hX:focus,
+.cf.hX:hover {
+  opacity: 0.9 !important;
+}
+
+
 
 
 /*
