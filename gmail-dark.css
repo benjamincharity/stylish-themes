@@ -479,6 +479,13 @@ div.NC {
   transition:         border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
 
+/*
+* Container for list of emails
+*/
+.UJ {
+  border-top: 1px solid rgba(250,250,250,0.6) !important;
+}
+
 
 
 
@@ -750,7 +757,6 @@ div.NC {
 .cf.hX:hover {
   opacity: 0.9 !important;
 }
-
 
 
 
