@@ -14,16 +14,23 @@
 
 
 /*
+* Loading screen
+*/
+#loading {
+  background-color: #222 !important;
+}
+
+
+/*
 * set an easier to read selection style
-*
 */
 *::selection {
-  background: #5E5E5E;
-  color: #eee;
+  background: #5E5E5E !important;
+  color: #eee !important;
 }
 *::-moz-selection {
-  background: #5E5E5E;
-  color: #eee;
+  background: #5E5E5E !important;
+  color: #eee !important;
 }
 
 
@@ -82,11 +89,11 @@
 */
 .gbzt {
   opacity: 0.4;
-  -webkit-transition: opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition:    opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition:     opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition:      opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition:         opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -webkit-transition: opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -moz-transition:    opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -ms-transition:     opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -o-transition:      opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  transition:         opacity 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
 }
   .gbzt:focus,
   .gbzt:hover {
@@ -229,16 +236,16 @@
   background-image: linear-gradient(top,#99534B,#522F2A) !important;
   border-color: #491611 !important;
   color: #999 !important;
-  -webkit-transition: color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition:    color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition:     color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition:      color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition:         color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -webkit-transition: color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -moz-transition:    color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -ms-transition:     color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -o-transition:      color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  transition:         color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
 }
   .T-I-KE:focus,
   .T-I-KE:hover {
     color: #eee !important;
-    cursor: pointer;
+    cursor: pointer !important;
   }
 
 /*
@@ -319,20 +326,20 @@
 * Chat utility controls (close/minimize/etc)
 */
 .Hm img {
-  opacity: 0.2;
+  opacity: 0.2 !important;
 }
   .Hm img:focus,
   .Hm img:hover {
-    opacity: 0.8;
+    opacity: 0.8 !important;
   }
 
 /*
 * wrapper for chat utility toolbar
 */
 div.NC {
-  box-shadow: 0 5px 6px 1px rgba(0,0,0,0.2);
-  position: relative;
-  z-index: 1;
+  box-shadow: 0 5px 6px 1px rgba(0,0,0,0.2) !important;
+  position: relative !important;
+  z-index: 1 !important;
 }
 
 /*
@@ -342,11 +349,11 @@ div.NC {
   background-color: #eee !important;
 }
   .NJ > div {
-    opacity: 0.4;
+    opacity: 0.4 !important;
   }
   .NJ:focus > div,
   .NJ:hover > div {
-    opacity: 1;
+    opacity: 1 !important;
   }
 
 /*
@@ -376,11 +383,11 @@ div.NC {
 * target links in 'more' dropdown
 */
 .jL {
-  -webkit-transition: all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition:    all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition:     all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition:      all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition:         all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -webkit-transition: all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -moz-transition:    all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -ms-transition:     all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -o-transition:      all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  transition:         all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
 }
 
   /*
@@ -472,11 +479,11 @@ div.NC {
 */
 .xY {
   border-bottom-color: transparent !important;
-  -webkit-transition: border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition:    border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition:     border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition:      border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition:         border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -webkit-transition: border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -moz-transition:    border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -ms-transition:     border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  -o-transition:      border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
+  transition:         border-color 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985) !important;
 }
 
 /*
@@ -510,7 +517,7 @@ div.NC {
 * messages
 */
 .Bk .G2 {
-  border-color: #535353;
+  border-color: #535353 !important;
 }
 
 /*
@@ -590,11 +597,11 @@ div.NC {
 * dropdown arrow next to the recipients name
 */
 .ajz {
-  opacity: 0.4;
+  opacity: 0.4 !important;
 }
   .ajz:focus,
   .ajz:hover {
-    opacity: 0.4;
+    opacity: 0.4 !important;
   }
 
 /*
@@ -668,14 +675,14 @@ div.NC {
 * Document attachment icon
 */
 .hu {
-  opacity: 0.5;
+  opacity: 0.5 !important;
 }
 
 /*
 * Show more
 */
 .adm {
-  opacity: 0.6;
+  opacity: 0.6 !important;
 }
 
 
@@ -758,6 +765,88 @@ div.NC {
   opacity: 0.9 !important;
 }
 
+/*
+* Chat transcript in email
+*/
+.aOU table {
+  background-color: white !important;
+}
+
+/*add border to chat table*/
+.cf.aSu {
+  border: 1px solid gray !important;
+}
+
+/*chat text container*/
+.aOV,
+/*chat user container*/
+.J4mLcc {
+  background-color: #666 !important;
+}
+
+/*chat user image*/
+.aQq {
+  opacity: 0.6 !important;
+  -webkit-transition: all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+  .aQq:focus,
+  .aQq:hover {
+    opacity: 0.9 !important;
+  }
+
+/*chat message timestamp*/
+.aSy {
+  opacity: 0.4 !important;
+  -webkit-transition: all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         all 300ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  visibility: visible !important;
+}
+
+.aOV:focus .aSy,
+.aOV:hover .aSy,
+/*chat user container*/
+.J4mLcc:focus .aSy,
+.J4mLcc:hover .aSy {
+  opacity: 0.8 !important;
+}
+
+/*open chat toolbar when anchored*/
+.aOH.aOI {
+  background-color: #222 !important;
+}
+
+/*remove chat left border*/
+.aOG {
+  border-left: 2px solid transparent !important;
+}
+
+/*empty div?*/
+.aON {
+  opacity: 0 !important;
+}
+
+/*outer container for labels*/
+.aOL {
+  padding-top: 6px !important;
+}
+
+/*container for labels*/
+.aQp,
+/*container for label*/
+.aOM,
+/*'x'for label*/
+.aOO,
+/*inner container for label*/
+.J-J5-Ji {
+  background-color: transparent !important;
+}
 
 
 /*
@@ -770,6 +859,6 @@ div.NC {
  *
 */
 
-.aej {
+/*.aej {*/
 
-}
+/*}*/
