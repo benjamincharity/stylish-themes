@@ -219,3 +219,17 @@ button.primary,
 .medium-window .board-side-btn:hover {
   background: #ADADAD !important;
 }
+
+/*loading screen*/
+#surface {
+  background-color: #222 !important;
+
+/*text area when editing card description*/
+.card-detail-edit .field {
+  color: #999 !important;
+}
+
+/* styling for @username mention */
+.atMention {
+  background: rgba(200,200,200,0.3) !important;
+}
