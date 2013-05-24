@@ -233,3 +233,8 @@ button.primary,
 .atMention {
   background: rgba(200,200,200,0.3) !important;
 }
+
+/*text when editing comment*/
+.current-comment .js-text {
+  color: #9e9e9e !important;
+}
