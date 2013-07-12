@@ -1,0 +1,86 @@
+/*
+
+
+  Planbox Theme
+
+
+  @author Benjamin Charity <ben@benjamincharity.com>
+
+  @doc
+
+  @end
+*/
+
+
+
+#stories>.story .carried_over_count {
+  color: #555 !important;
+  margin: -2px 0 0 -28px !important;
+}
+
+#stories>.story {
+  font-family: Courier New !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#stories>.story .fl.content {
+  padding: .5% 1% .5% 2% !important;
+  width: 96% !important;
+}
+
+#stories > .story .content > .name {
+  width: 340px !important;
+}
+
+/* Change opacity of item type */
+.fl.type {
+  opacity: 0.7 !important;
+}
+    
+.fl.type[type_id*="bug"] {
+  opacity: 0.5 !important;          
+}
+        
+#stories>.story.editable:hover .dropdown.move .toolbar {
+  top: -5px !important;      
+}
+
+
+/* Push completed stories back */
+#stories .story.completed .fl.name,
+#stories .story.completed .fr.progress{
+  opacity: 0.5 !important;
+  -webkit-transition: all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+#stories .story.completed .fl.type {
+  opacity: 0.3 !important;
+  -webkit-transition: all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition:    all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition:     all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition:      all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition:         all 200ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+#stories .story.completed:hover .fl.name,
+#stories .story.completed:hover .fr.progress,
+#stories .story.completed:hover .fl.type {
+  opacity: 1 !important;
+}
+
+
+/* Adjust the tabs */
+#iterations .iteration .link {
+  background-color: skyBlue !important;
+}
+#iterations .iteration.active .link {
+  background-color: white !important;
+}
+
+#iterations .has-dropdown .dropdown-toggle {
+  background-color: skyBlue !important;
+}
