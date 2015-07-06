@@ -1,0 +1,11 @@
+@-moz-document domain('github.com') {
+
+  a.issue-link::before {
+      color: #222;
+      font-weight: bold;
+      content: attr(title) " -> ";
+      display: inline-block;
+      margin-right: 2px;
+  }
+
+}
